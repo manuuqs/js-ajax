@@ -4,7 +4,7 @@ document.getElementById('verificarPalindromo').addEventListener('click', functio
   
   function verificarPalindromo() {
     var palabra = document.getElementById('palabra').value.toLowerCase();
-    palabra = palabra.replace(/\s/g, '');  //para eliminar todos los espacios en blanco de una cadena de texto en JavaScript.
+    palabra = palabra.replace(/\s/g, ''); 
   
     var caracteres = palabra.split('');
     var caracteresRevertidos = caracteres.reverse();
